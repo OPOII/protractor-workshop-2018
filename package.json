@@ -7,7 +7,6 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
     "test": "npm run build && protractor dist/protractor/local.config.js"
-
   },
   "repository": {
     "type": "git",
@@ -26,6 +25,7 @@
   },
   "homepage": "https://github.com/OPOII/protractor-workshop-2018#readme",
   "dependencies": {
+    "jasmine-spec-reporter": "^5.0.2",
     "protractor": "^7.0.0"
   },
   "devDependencies": {
